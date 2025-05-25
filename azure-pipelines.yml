@@ -1,9 +1,14 @@
 trigger:
 - '*'
 
+pool:
+  vmImage: ubuntu-latest
+
 variables:
   buildConfiguration: 'Release'
   releaseBranchName: 'release'
+
+
 
 stages:
 - stage: 'Build'
