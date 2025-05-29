@@ -1,0 +1,7 @@
+In git-bash  Starten:
+driverDir="C:\Users\User1\source\repos\MSLearn\TailSpin\mslearn-tailspin-spacegame-web-deploy\Tailspin.SpaceGame.Web.UITests\bin\Release\net8.0"
+export ChromeWebDriver=$driverDir
+export EdgeWebDriver=$driverDir
+export GeckoWebDriver=$driverDir
+export SITE_URL="http://localhost:5000"
+dotnet test --configuration Release Tailspin.SpaceGame.Web.UITests
